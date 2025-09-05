@@ -34,7 +34,12 @@ Platform Go Rako dibangun di atas fondasi teknologi yang andal, aman, dan cerdas
 
 ## 🤖 AI Support Explanation
 
-Kami mengintegrasikan **IBM Granite AI** untuk menciptakan pengalaman belajar yang terpersonalisasi. AI ini bertugas menganalisis pola belajar pengguna, memberikan rekomendasi konten yang relevan, dan membuat tantangan kuis yang adaptif sesuai tingkat pemahaman pengguna.
+Dalam proyek Go Rako, kami memanfaatkan Kecerdasan Buatan (AI) bukan sebagai fitur yang dilihat langsung oleh pengguna, melainkan sebagai asisten developer yang cerdas untuk mempercepat dan meningkatkan kualitas proses pengembangan. Kami menggunakan **IBM Granite AI** dalam beberapa peran kunci:
+**1**. Mempercepat Perbaikan Eror: AI membantu menemukan solusi saat kode kami mengalami bug.
+**2**. Mencari Ide Fitur: AI memberikan referensi dan inspirasi untuk fitur-fitur yang menarik, seperti game dan sistem reward.
+**3**. Membuat Kode: AI membantu menghasilkan potongan kode untuk fungsi-fungsi dasar, sehingga kami bisa bekerja lebih cepat.
+**Secara keseluruhan, AI membuat proses pengembangan menjadi lebih efisien, cepat, dan inovatif.**
+
 
 * **Link AI:** [IBM Granite AI Playground](https://www.ibm.com/granite/playground/)
 
