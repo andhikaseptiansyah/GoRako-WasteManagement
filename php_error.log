@@ -1,0 +1,816 @@
+[29-Jun-2025 10:12:35 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 8
+[29-Jun-2025 10:12:35 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 8
+[29-Jun-2025 10:12:35 Europe/Berlin] [bank_sampah.php] Final dropPoints array (to JS): [{"id":8,"name":"President University","address":"Jababeka Education Park, Jl. Ki Hajar Dewantara, RT.2\/RW.4, Mekarmukti, Cikarang Utara, Bekasi Regency, West Java 17530","hours":"08.00\u201317.00","types":["Plastik"],"prices":"Plastik: Rp 3000\/Kg","description":"Kampus president university dicikarang utara","terms":null,"rating":"0.0","reviews":0,"lat":"-6.28482000","lng":"107.17058000","cardColorClass":"green-card","formatted_waste_types":[{"type":"Plastik","price":"Rp 3000\/Kg"}]}]
+[29-Jun-2025 10:12:51 Europe/Berlin] [verify_pin.php] Received dropPointId: 8
+[29-Jun-2025 10:12:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pin_hash' in 'field list' in C:\xampp\htdocs\GoRako\verify_pin.php:35
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\verify_pin.php(35): mysqli->prepare('SELECT pin_hash...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\verify_pin.php on line 35
+[29-Jun-2025 10:14:23 Europe/Berlin] [verify_pin.php] Invalid request method. Expected POST, received GET
+[29-Jun-2025 10:15:16 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 8
+[29-Jun-2025 10:15:16 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 8
+[29-Jun-2025 10:15:16 Europe/Berlin] [bank_sampah.php] Final dropPoints array (to JS): [{"id":8,"name":"President University","address":"Jababeka Education Park, Jl. Ki Hajar Dewantara, RT.2\/RW.4, Mekarmukti, Cikarang Utara, Bekasi Regency, West Java 17530","hours":"08.00\u201317.00","types":["Plastik"],"prices":"Plastik: Rp 3000\/Kg","description":"Kampus president university dicikarang utara","terms":null,"rating":"0.0","reviews":0,"lat":"-6.28482000","lng":"107.17058000","cardColorClass":"blue-card","formatted_waste_types":[{"type":"Plastik","price":"Rp 3000\/Kg"}]}]
+[29-Jun-2025 10:15:28 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 8
+[29-Jun-2025 10:15:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pin_hash' in 'field list' in C:\xampp\htdocs\GoRako\verify_pin.php:36
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\verify_pin.php(36): mysqli->prepare('SELECT pin_hash...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\verify_pin.php on line 36
+[29-Jun-2025 10:16:08 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 8
+[29-Jun-2025 10:16:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pin_hash' in 'field list' in C:\xampp\htdocs\GoRako\verify_pin.php:36
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\verify_pin.php(36): mysqli->prepare('SELECT pin_hash...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\verify_pin.php on line 36
+[29-Jun-2025 10:21:29 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 8
+[29-Jun-2025 10:21:29 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 8
+[29-Jun-2025 10:21:58 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 8
+[29-Jun-2025 10:21:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pin_hash' in 'field list' in C:\xampp\htdocs\GoRako\verify_pin.php:27
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\verify_pin.php(27): mysqli->prepare('SELECT pin_hash...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\verify_pin.php on line 27
+[29-Jun-2025 10:22:00 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 8
+[29-Jun-2025 10:22:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pin_hash' in 'field list' in C:\xampp\htdocs\GoRako\verify_pin.php:27
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\verify_pin.php(27): mysqli->prepare('SELECT pin_hash...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\verify_pin.php on line 27
+[29-Jun-2025 10:22:02 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 8
+[29-Jun-2025 10:22:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pin_hash' in 'field list' in C:\xampp\htdocs\GoRako\verify_pin.php:27
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\verify_pin.php(27): mysqli->prepare('SELECT pin_hash...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\verify_pin.php on line 27
+[29-Jun-2025 10:26:04 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 8
+[29-Jun-2025 10:26:04 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 8
+[29-Jun-2025 10:26:13 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 8
+[29-Jun-2025 10:26:13 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 8: TIDAK_DITEMUKAN
+[29-Jun-2025 10:26:13 Europe/Berlin] [verify_pin.php] Verifikasi PIN gagal untuk dropPointId 8.
+[29-Jun-2025 10:29:25 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 9
+[29-Jun-2025 10:29:25 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 9
+[29-Jun-2025 10:29:45 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 9
+[29-Jun-2025 10:29:45 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 9
+[29-Jun-2025 10:32:51 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 10
+[29-Jun-2025 10:32:51 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 10
+[29-Jun-2025 10:33:11 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 10
+[29-Jun-2025 10:33:11 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 10: DITEMUKAN
+[29-Jun-2025 10:33:15 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 10
+[29-Jun-2025 10:33:15 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 10: DITEMUKAN
+[29-Jun-2025 10:33:17 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 10
+[29-Jun-2025 10:33:17 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 10: DITEMUKAN
+[29-Jun-2025 10:33:20 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 10
+[29-Jun-2025 10:33:20 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 10: DITEMUKAN
+[29-Jun-2025 10:33:20 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 10
+[29-Jun-2025 10:33:20 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 10: DITEMUKAN
+[29-Jun-2025 10:33:31 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 10
+[29-Jun-2025 10:33:31 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 10: DITEMUKAN
+[29-Jun-2025 10:33:34 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 10
+[29-Jun-2025 10:33:34 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 10: DITEMUKAN
+[29-Jun-2025 10:33:54 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 0
+[29-Jun-2025 10:33:54 Europe/Berlin] [bank_sampah.php] No selected_dp_id found, fetching ALL drop points.
+[29-Jun-2025 10:34:11 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 10
+[29-Jun-2025 10:34:11 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 10
+[29-Jun-2025 10:34:40 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 10
+[29-Jun-2025 10:34:40 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 10
+[29-Jun-2025 10:39:21 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 10
+[29-Jun-2025 10:39:21 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 10
+[29-Jun-2025 10:39:44 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 0
+[29-Jun-2025 10:39:44 Europe/Berlin] [bank_sampah.php] No selected_dp_id found, fetching ALL drop points.
+[29-Jun-2025 10:47:08 Europe/Berlin] PHP Warning:  Undefined array key "waste_types" in C:\xampp\htdocs\GoRako\profile.php on line 792
+[29-Jun-2025 10:49:11 Europe/Berlin] PHP Warning:  Undefined array key "waste_types" in C:\xampp\htdocs\GoRako\profile.php on line 792
+[29-Jun-2025 10:54:08 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 11
+[29-Jun-2025 10:54:08 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 11
+[29-Jun-2025 11:21:45 Europe/Berlin] PHP Warning:  Undefined array key "waste_types" in C:\xampp\htdocs\GoRako\profile.php on line 792
+[29-Jun-2025 11:49:38 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 11
+[29-Jun-2025 11:49:38 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 11
+[29-Jun-2025 11:50:23 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 11
+[29-Jun-2025 11:50:23 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 11
+[29-Jun-2025 12:34:18 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 11
+[29-Jun-2025 12:34:18 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 11
+[29-Jun-2025 14:08:52 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 11
+[29-Jun-2025 14:08:52 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 11
+[30-Jun-2025 15:26:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registration_date' in 'field list' in C:\xampp\htdocs\GoRako\profile.php:100
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(100): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 100
+[30-Jun-2025 15:27:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registration_date' in 'field list' in C:\xampp\htdocs\GoRako\profile.php:100
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(100): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 100
+[30-Jun-2025 15:36:35 Europe/Berlin] PHP Warning:  Undefined array key "waste_types" in C:\xampp\htdocs\GoRako\profile.php on line 792
+[30-Jun-2025 15:36:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:163
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(163): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 163
+[30-Jun-2025 15:38:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:163
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(163): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 163
+[30-Jun-2025 15:41:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:163
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(163): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 163
+[30-Jun-2025 15:42:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:163
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(163): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 163
+[30-Jun-2025 15:43:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:163
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(163): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 163
+[30-Jun-2025 15:44:21 Europe/Berlin] PHP Warning:  Undefined array key "waste_types" in C:\xampp\htdocs\GoRako\profile.php on line 792
+[30-Jun-2025 15:58:42 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 11
+[30-Jun-2025 15:58:42 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 11
+[30-Jun-2025 15:59:03 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 11
+[30-Jun-2025 15:59:03 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 11: DITEMUKAN
+[30-Jun-2025 15:59:06 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 11
+[30-Jun-2025 15:59:06 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 11: DITEMUKAN
+[30-Jun-2025 15:59:07 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 11
+[30-Jun-2025 15:59:07 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 11: DITEMUKAN
+[30-Jun-2025 15:59:09 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 11
+[30-Jun-2025 15:59:09 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 11: DITEMUKAN
+[30-Jun-2025 15:59:10 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 11
+[30-Jun-2025 15:59:10 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 11: DITEMUKAN
+[30-Jun-2025 15:59:11 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 11
+[30-Jun-2025 15:59:11 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 11: DITEMUKAN
+[30-Jun-2025 15:59:24 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 11
+[30-Jun-2025 15:59:24 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 11: DITEMUKAN
+[30-Jun-2025 15:59:26 Europe/Berlin] [verify_pin.php] Menerima dropPointId: 11
+[30-Jun-2025 15:59:26 Europe/Berlin] [verify_pin.php] Hash PIN tersimpan dari DB untuk dropPointId 11: DITEMUKAN
+[30-Jun-2025 15:59:34 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 0
+[30-Jun-2025 15:59:34 Europe/Berlin] [bank_sampah.php] No selected_dp_id found, fetching ALL drop points.
+[30-Jun-2025 17:47:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registration_date' in 'field list' in C:\xampp\htdocs\GoRako\profile.php:92
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(92): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 92
+[30-Jun-2025 18:25:51 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[30-Jun-2025 18:25:58 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 13:09:29 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 13:13:32 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 13:24:27 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 13:26:53 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 13:27:15 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 14:08:34 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 14:12:45 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 14:26:33 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 14:27:01 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 14:27:18 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[01-Jul-2025 15:45:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENT_USER_ID" in C:\xampp\htdocs\GoRako\Game_simulasi.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 7
+[01-Jul-2025 15:49:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENT_USER_ID" in C:\xampp\htdocs\GoRako\Game_simulasi.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 7
+[01-Jul-2025 15:49:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENT_USER_ID" in C:\xampp\htdocs\GoRako\Game_simulasi.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 7
+[01-Jul-2025 15:53:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENT_USER_ID" in C:\xampp\htdocs\GoRako\Game_simulasi.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 7
+[01-Jul-2025 15:53:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENT_USER_ID" in C:\xampp\htdocs\GoRako\Game_simulasi.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 7
+[01-Jul-2025 17:19:39 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\GoRako\api.php:171
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\api.php(171): mysqli_stmt->bind_param('ii', 1, 1, 5)
+#1 C:\xampp\htdocs\GoRako\api.php(484): saveGameStateToDB(Object(mysqli), 1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\api.php on line 171
+[01-Jul-2025 18:00:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\GoRako\Game_simulasi.php:72
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 72
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 152
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 152
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 152
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:20 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\GoRako\api.php:200
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\api.php(200): mysqli_stmt->bind_param('ii', 1, 1, 5)
+#1 C:\xampp\htdocs\GoRako\api.php(518): saveGameStateToDB(Object(mysqli), 1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\api.php on line 200
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 152
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 152
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 152
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\GoRako\api.php on line 178
+[01-Jul-2025 18:10:23 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\GoRako\api.php:200
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\api.php(200): mysqli_stmt->bind_param('ii', 1, 1, 5)
+#1 C:\xampp\htdocs\GoRako\api.php(518): saveGameStateToDB(Object(mysqli), 1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\api.php on line 200
+[01-Jul-2025 18:13:43 Europe/Berlin] PHP Fatal error:  Cannot redeclare getUpgradeCost() (previously declared in C:\xampp\htdocs\GoRako\api.php:312) in C:\xampp\htdocs\GoRako\game_data.php on line 12
+[02-Jul-2025 05:46:37 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\GoRako\Game_simulasi.php:1284
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1284
+[02-Jul-2025 05:47:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\GoRako\Game_simulasi.php:1284
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1284
+[02-Jul-2025 05:53:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\GoRako\Game_simulasi.php:1288
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1288
+[02-Jul-2025 05:54:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\GoRako\Game_simulasi.php:1288
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1288
+[02-Jul-2025 05:59:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\GoRako\Game_simulasi.php:1303
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1303
+[02-Jul-2025 13:06:40 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 13:12:46 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 13:13:23 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 13:15:30 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 13:15:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\GoRako\Game_simulasi.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 103
+[02-Jul-2025 13:19:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\GoRako\db_connection.php:20
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\db_connection.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'GoRako')
+#1 C:\xampp\htdocs\GoRako\Game_simulasi.php(6): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\db_connection.php on line 20
+[02-Jul-2025 13:20:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\GoRako\db_connection.php:20
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\db_connection.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'GoRako')
+#1 C:\xampp\htdocs\GoRako\modules.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\db_connection.php on line 20
+[02-Jul-2025 13:20:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\GoRako\db_connection.php:20
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\db_connection.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'GoRako')
+#1 C:\xampp\htdocs\GoRako\index.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\db_connection.php on line 20
+[02-Jul-2025 13:22:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\GoRako\db_connection.php:26
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\db_connection.php(26): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'GoRako')
+#1 C:\xampp\htdocs\GoRako\index.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\db_connection.php on line 26
+[02-Jul-2025 13:24:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\GoRako\db_connection.php:26
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\db_connection.php(26): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'GoRako')
+#1 C:\xampp\htdocs\GoRako\index.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\db_connection.php on line 26
+[02-Jul-2025 13:25:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\GoRako\db_connection.php:26
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\db_connection.php(26): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'GoRako')
+#1 C:\xampp\htdocs\GoRako\index.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\db_connection.php on line 26
+[02-Jul-2025 13:28:05 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 13:49:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\GoRako\db_connection.php:26
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\db_connection.php(26): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'GoRako')
+#1 C:\xampp\htdocs\GoRako\Game_simulasi.php(6): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\db_connection.php on line 26
+[02-Jul-2025 13:49:52 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 13:49:55 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:133
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(133): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 133
+[02-Jul-2025 13:55:52 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 13:56:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:133
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(133): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 133
+[02-Jul-2025 13:56:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:133
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(133): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 133
+[02-Jul-2025 14:01:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:133
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(133): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 133
+[02-Jul-2025 14:01:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:133
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(133): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 133
+[02-Jul-2025 14:03:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:133
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(133): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 133
+[02-Jul-2025 14:03:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:133
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(133): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 133
+[02-Jul-2025 14:06:24 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 14:06:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:133
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(133): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 133
+[02-Jul-2025 14:08:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:154
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(154): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 154
+[02-Jul-2025 14:08:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:154
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(154): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 154
+[02-Jul-2025 14:13:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:157
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(157): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 157
+[02-Jul-2025 14:13:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:157
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(157): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 157
+[02-Jul-2025 14:13:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:157
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(157): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 157
+[02-Jul-2025 14:14:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\profile.php:157
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(157): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 157
+[02-Jul-2025 14:17:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'gs.description' in 'field list' in C:\xampp\htdocs\GoRako\profile.php:29
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(29): mysqli->prepare('SELECT gs.score...')
+#1 C:\xampp\htdocs\GoRako\profile.php(274): fetchUserHistory(Object(mysqli), 2, 'game_scores', Array, 'played_at')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 29
+[02-Jul-2025 14:17:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'gs.description' in 'field list' in C:\xampp\htdocs\GoRako\profile.php:29
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(29): mysqli->prepare('SELECT gs.score...')
+#1 C:\xampp\htdocs\GoRako\profile.php(274): fetchUserHistory(Object(mysqli), 2, 'game_scores', Array, 'played_at')
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 29
+[02-Jul-2025 14:45:58 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 14:46:02 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 14:51:56 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\GoRako\api.php on line 22
+[02-Jul-2025 14:52:12 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\GoRako\api.php on line 22
+[02-Jul-2025 14:52:21 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\GoRako\api.php on line 22
+[02-Jul-2025 14:52:25 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\GoRako\api.php on line 22
+[02-Jul-2025 14:52:33 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\GoRako\api.php on line 22
+[02-Jul-2025 14:52:59 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\GoRako\api.php on line 22
+[02-Jul-2025 14:53:14 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\GoRako\api.php on line 22
+[02-Jul-2025 14:54:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "isSellableProduct" in C:\xampp\htdocs\GoRako\Game_simulasi.php:1677
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1677
+[02-Jul-2025 14:54:33 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 14:55:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "isSellableProduct" in C:\xampp\htdocs\GoRako\Game_simulasi.php:1677
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1677
+[02-Jul-2025 14:55:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "isSellableProduct" in C:\xampp\htdocs\GoRako\Game_simulasi.php:1677
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1677
+[02-Jul-2025 15:09:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "isSellableProduct" in C:\xampp\htdocs\GoRako\Game_simulasi.php:1677
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 1677
+[02-Jul-2025 15:10:31 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 15:26:47 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 15:27:13 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 15:29:33 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 15:38:01 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 15:38:27 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 11
+[02-Jul-2025 15:38:27 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 11
+[02-Jul-2025 15:39:22 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 10
+[02-Jul-2025 15:39:22 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 10
+[02-Jul-2025 15:46:51 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 16:08:56 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 16:34:11 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 16:36:20 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 16:36:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\GoRako\Game_simulasi.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 103
+[02-Jul-2025 16:38:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'highest_points_achieved' in 'field list' in C:\xampp\htdocs\GoRako\profile.php:112
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(112): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 112
+[02-Jul-2025 16:38:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'highest_points_achieved' in 'field list' in C:\xampp\htdocs\GoRako\profile.php:112
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\profile.php(112): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 112
+[02-Jul-2025 17:04:14 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 17:52:45 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 17:52:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'last_login_reward_date' in 'field list' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 17:55:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 17:55:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 17:55:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 18:15:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 18:15:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 18:15:59 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 18:38:31 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 18:38:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:25
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(25): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 25
+[02-Jul-2025 18:38:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:25
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(25): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 25
+[02-Jul-2025 18:38:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:25
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(25): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 25
+[02-Jul-2025 19:31:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 19:31:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 19:31:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 19:31:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:24
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(24): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 24
+[02-Jul-2025 20:21:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:172
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(172): mysqli->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 172
+[02-Jul-2025 20:21:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\GoRako\Game_simulasi.php:172
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\Game_simulasi.php(172): mysqli->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 172
+[02-Jul-2025 20:47:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\GoRako\Game_simulasi.php:204
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 204
+[02-Jul-2025 21:08:51 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 21:12:05 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 21:12:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\GoRako\Game_simulasi.php:156
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 156
+[02-Jul-2025 21:12:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\GoRako\Game_simulasi.php:204
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 204
+[02-Jul-2025 21:30:52 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 21:30:59 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[02-Jul-2025 21:43:53 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 11:15:07 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 11:15:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'player_id' in 'where clause' in C:\xampp\htdocs\GoRako\game.php:45
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(45): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 45
+[03-Jul-2025 11:39:04 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 11:39:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'player_id' in 'where clause' in C:\xampp\htdocs\GoRako\game.php:45
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(45): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 45
+[03-Jul-2025 11:39:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'player_id' in 'where clause' in C:\xampp\htdocs\GoRako\game.php:45
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(45): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 45
+[03-Jul-2025 12:03:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'player_id' in 'where clause' in C:\xampp\htdocs\GoRako\game.php:45
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(45): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 45
+[03-Jul-2025 12:05:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'player_id' in 'where clause' in C:\xampp\htdocs\GoRako\game.php:45
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(45): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 45
+[03-Jul-2025 12:11:59 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:12:29 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:12:37 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:12:38 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:15:24 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:15:29 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:15:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\GoRako\Game_simulasi.php:204
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 204
+[03-Jul-2025 12:19:59 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:20:31 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:20:36 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:27:38 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:38:10 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:38:15 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:40:00 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:40:17 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:40:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xampp\htdocs\GoRako\Game_simulasi.php:205
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\Game_simulasi.php on line 205
+[03-Jul-2025 12:41:56 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:42:00 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:42:13 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:47:56 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:48:24 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:52:45 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:53:13 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:53:34 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 12:54:57 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 13:18:23 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 13:21:17 Europe/Berlin] Achievement awarded: Penyortir Pemula to User ID: 14
+[03-Jul-2025 13:23:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:23:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:23:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:23:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:23:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:23:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:26:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:26:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:28:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'profile_picture_url' in 'field list' in C:\xampp\htdocs\GoRako\game.php:22
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(22): mysqli->prepare('SELECT total_po...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 22
+[03-Jul-2025 13:30:44 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 13:30:48 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 17:17:58 Europe/Berlin] Invalid redirect URL attempted: login.php
+[03-Jul-2025 17:22:47 Europe/Berlin] Invalid redirect URL attempted: login.php
+[03-Jul-2025 17:23:02 Europe/Berlin] Invalid redirect URL attempted: index.php
+[03-Jul-2025 17:23:41 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 17:24:12 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 17:26:00 Europe/Berlin] Achievement awarded: Penyortir Pemula to User ID: 7
+[03-Jul-2025 17:26:00 Europe/Berlin] Achievement awarded: Master Daur Ulang to User ID: 7
+[03-Jul-2025 17:28:12 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 17:31:14 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 17:32:34 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 17:37:10 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 18:36:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in C:\xampp\htdocs\GoRako\game.php:354
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(354): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 354
+[03-Jul-2025 18:36:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in C:\xampp\htdocs\GoRako\game.php:354
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(354): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 354
+[03-Jul-2025 18:36:33 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[03-Jul-2025 18:36:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in C:\xampp\htdocs\GoRako\game.php:354
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game.php(354): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\game.php on line 354
+[03-Jul-2025 18:52:10 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[04-Jul-2025 13:08:08 Europe/Berlin] Invalid redirect URL attempted: index.php
+[04-Jul-2025 13:08:21 Europe/Berlin] Invalid redirect URL attempted: index.php
+[04-Jul-2025 16:12:15 Europe/Berlin] Invalid redirect URL attempted: index.php
+[05-Jul-2025 07:42:30 Europe/Berlin] Invalid redirect URL attempted: index.php
+[05-Jul-2025 07:42:44 Europe/Berlin] Invalid redirect URL attempted: index.php
+[05-Jul-2025 07:43:10 Europe/Berlin] Invalid redirect URL attempted: admin_login.php
+[05-Jul-2025 12:56:49 Europe/Berlin] Invalid redirect URL attempted: login.php
+[05-Jul-2025 12:57:36 Europe/Berlin] Invalid redirect URL attempted: login.php
+[06-Jul-2025 10:43:01 Europe/Berlin] Invalid redirect URL attempted: index.php
+[06-Jul-2025 10:43:29 Europe/Berlin] News API response error or no articles found: Please set your User-Agent header to identify your application. Anonymous requests are not allowed.
+[11-Jul-2025 10:08:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getUserData() in C:\xampp\htdocs\GoRako\game_petualangan.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\game_petualangan.php on line 16
+[11-Jul-2025 10:13:55 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\GoRako\game_petualangan.php:17
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game_petualangan.php(17): mysqli->prepare('SELECT name, em...')
+#1 C:\xampp\htdocs\GoRako\game_petualangan.php(62): getUserData(Object(mysqli), 7)
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\game_petualangan.php on line 17
+[11-Jul-2025 10:13:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\GoRako\game_petualangan.php:17
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game_petualangan.php(17): mysqli->prepare('SELECT name, em...')
+#1 C:\xampp\htdocs\GoRako\game_petualangan.php(62): getUserData(Object(mysqli), 7)
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\game_petualangan.php on line 17
+[11-Jul-2025 10:19:50 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\GoRako\game_petualangan.php on line 68
+[11-Jul-2025 10:19:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'points_gained' in 'field list' in C:\xampp\htdocs\GoRako\game_petualangan.php:28
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\game_petualangan.php(28): mysqli->prepare('SELECT descript...')
+#1 C:\xampp\htdocs\GoRako\game_petualangan.php(73): getPointsHistory(Object(mysqli), 7)
+#2 {main}
+  thrown in C:\xampp\htdocs\GoRako\game_petualangan.php on line 28
+[11-Jul-2025 10:28:18 Europe/Berlin] Invalid redirect URL attempted: index.php
+[11-Jul-2025 10:28:28 Europe/Berlin] Invalid redirect URL attempted: index.php
+[11-Jul-2025 10:29:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_1.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_1.php on line 20
+[11-Jul-2025 10:30:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_1.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_1.php on line 20
+[11-Jul-2025 10:30:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_1.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_1.php on line 20
+[11-Jul-2025 10:31:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_1.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_1.php on line 20
+[11-Jul-2025 10:50:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_1.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_1.php on line 20
+[11-Jul-2025 10:51:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_1.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_1.php on line 20
+[11-Jul-2025 10:53:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_1.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_1.php on line 20
+[11-Jul-2025 11:01:09 Europe/Berlin] Invalid redirect URL attempted: index.php
+[11-Jul-2025 11:10:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_2.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_2.php on line 20
+[11-Jul-2025 11:17:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_2.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_2.php on line 20
+[11-Jul-2025 11:22:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_2.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_2.php on line 20
+[11-Jul-2025 11:23:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function saveGameResult() in C:\xampp\htdocs\GoRako\level_2.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\level_2.php on line 20
+[11-Jul-2025 11:25:13 Europe/Berlin] Invalid redirect URL attempted: game_petualangan.php
+[11-Jul-2025 11:49:57 Europe/Berlin] Invalid redirect URL attempted: index.php
+[11-Jul-2025 11:50:03 Europe/Berlin] Invalid redirect URL attempted: index.php
+[17-Jul-2025 17:26:58 Europe/Berlin] DEBUG PHP module-detail (GET): module_id: 13, module_type: research, targetProgressModuleId: 3
+[18-Jul-2025 20:30:42 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 11
+[18-Jul-2025 20:30:42 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 11
+[19-Jul-2025 14:30:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'current_points' in 'field list' in C:\xampp\htdocs\GoRako\checkout.php:45
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\checkout.php(45): mysqli->prepare('SELECT current_...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\checkout.php on line 45
+[19-Jul-2025 14:34:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'current_points' in 'field list' in C:\xampp\htdocs\GoRako\checkout.php:45
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\checkout.php(45): mysqli->prepare('SELECT current_...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\checkout.php on line 45
+[19-Jul-2025 18:03:44 Europe/Berlin] PHP Warning:  Undefined array key "jumlah_item" in C:\xampp\htdocs\GoRako\dashboard_admin.php on line 2481
+[19-Jul-2025 18:03:55 Europe/Berlin] PHP Warning:  Undefined array key "jumlah_item" in C:\xampp\htdocs\GoRako\dashboard_admin.php on line 2481
+[19-Jul-2025 18:04:25 Europe/Berlin] PHP Warning:  Undefined array key "jumlah_item" in C:\xampp\htdocs\GoRako\dashboard_admin.php on line 2481
+[19-Jul-2025 18:04:32 Europe/Berlin] PHP Warning:  Undefined array key "jumlah_item" in C:\xampp\htdocs\GoRako\dashboard_admin.php on line 2481
+[20-Jul-2025 17:43:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'e.code_redeemed' in 'field list' in C:\xampp\htdocs\GoRako\history_reward.php:54
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\history_reward.php(54): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\history_reward.php on line 54
+[20-Jul-2025 17:47:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'e.code_redeemed' in 'field list' in C:\xampp\htdocs\GoRako\history_reward.php:54
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\history_reward.php(54): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\history_reward.php on line 54
+[20-Jul-2025 17:47:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'e.code_redeemed' in 'field list' in C:\xampp\htdocs\GoRako\history_reward.php:54
+Stack trace:
+#0 C:\xampp\htdocs\GoRako\history_reward.php(54): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\GoRako\history_reward.php on line 54
+[20-Jul-2025 18:00:46 Europe/Berlin] DEBUG PHP module-detail (GET): module_id: 3, module_type: video, targetProgressModuleId: 3
+[20-Jul-2025 18:01:10 Europe/Berlin] [bank_sampah.php] Received selected_dp_id: 10
+[20-Jul-2025 18:01:10 Europe/Berlin] [bank_sampah.php] Drop point found in DB for ID: 10

@@ -1,0 +1,4 @@
+[19-Jul-2025 20:16:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function has_flash_message() in C:\xampp\htdocs\GoRako\profile.php:1224
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\GoRako\profile.php on line 1224
